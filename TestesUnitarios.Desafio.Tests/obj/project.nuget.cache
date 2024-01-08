@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kSExMhHc50e/EB7EzUC1okK92BHtcx62xDoOJBkYvWqoGiD91s1CBwYV2gqvk7zFUd0iyYew7w9srtvoMXv/zA==",
-  "success": true,
+  "dgSpecHash": "WfGr0EAocb2feeiVIr3/fK3WEvi1cLYfUpuMjmgHWCILCJudLZGT4cFI9ZYvoQdIzgd3IjT5agKgbhnp3rWX7A==",
+  "success": false,
   "projectFilePath": "C:\\Projetos\\TestesUnitariosDesafio\\TestesUnitarios.Desafio.Tests\\TestesUnitarios.Desafio.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brefi\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -100,5 +100,15 @@
     "C:\\Users\\brefi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
     "C:\\Users\\brefi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TestesUnitarios.Desafio.Console is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project TestesUnitarios.Desafio.Console supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TestesUnitarios.Desafio.Console",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
